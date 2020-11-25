@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns_Alura", "DesignPatterns_Alura\DesignPatterns_Alura.csproj", "{0879868F-366A-49C8-95BC-EEDB5B5C343D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0879868F-366A-49C8-95BC-EEDB5B5C343D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0879868F-366A-49C8-95BC-EEDB5B5C343D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0879868F-366A-49C8-95BC-EEDB5B5C343D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0879868F-366A-49C8-95BC-EEDB5B5C343D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53C2C2A2-80E7-4451-AE62-2C2F6AA3E266}
+	EndGlobalSection
+EndGlobal
