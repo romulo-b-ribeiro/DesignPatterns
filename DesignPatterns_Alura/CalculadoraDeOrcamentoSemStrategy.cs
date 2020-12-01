@@ -1,19 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace DesignPatterns_Alura._01_Strategy.SemDP
+namespace DesignPatterns_Alura._01_Strategy
 {
-    public class Orcamento
-    {
-        public decimal Valor { get; private set; }
-
-        public Orcamento(decimal valor)
-        {
-            Valor = valor;
-        }
-    }
-
     public class ICMS
     {
         public decimal CalculaICMS(Orcamento orcamento)

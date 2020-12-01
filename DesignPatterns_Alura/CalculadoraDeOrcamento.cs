@@ -1,12 +1,8 @@
-﻿using System;
+﻿using _01_Strategy.Interfaces;
+using System;
 
-namespace DesignPatterns_Alura._01_Strategy
+namespace _01_Strategy
 {
-    public interface IImposto
-    {
-        decimal Calcular(Orcamento orcamento);
-    }
-
     public class Orcamento
     {
         public decimal Valor { get; private set; }
@@ -17,7 +13,7 @@ namespace DesignPatterns_Alura._01_Strategy
         }
     }
 
-    public class ICMS : IImposto
+    public class ICMS_Strategy : IImposto
     {
         public decimal Calcular(Orcamento orcamento)
         {
@@ -25,7 +21,7 @@ namespace DesignPatterns_Alura._01_Strategy
         }
     }
 
-    public class ISS : IImposto
+    public class ISS_Strategy : IImposto
     {
         public decimal Calcular(Orcamento orcamento)
         {

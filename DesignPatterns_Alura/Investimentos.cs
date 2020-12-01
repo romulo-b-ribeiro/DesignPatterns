@@ -1,24 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using _01_Strategy.Entities;
+using _01_Strategy.Interfaces;
+using System;
 
-namespace DesignPatterns_Alura._01_Strategy
+namespace _01_Strategy
 {
-    interface IInvestimento
-    {
-        decimal CalcularRetorno(Conta investimento);
-    }
-
-    class Conta
-    {
-        public decimal Saldo { get; private set; }
-
-        public void Depositar(decimal valor)
-        {
-            Saldo += valor;
-        }
-    }
-
     class Conservador : IInvestimento
     {
         private const decimal TAXA_DE_RETORNO = 0.008M;

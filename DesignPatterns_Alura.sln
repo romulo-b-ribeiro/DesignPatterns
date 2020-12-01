@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns_Alura", "DesignPatterns_Alura\DesignPatterns_Alura.csproj", "{0879868F-366A-49C8-95BC-EEDB5B5C343D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Strategy", "DesignPatterns_Alura\01_Strategy.csproj", "{0879868F-366A-49C8-95BC-EEDB5B5C343D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_ChainOfResponsibilty", "02_ChainOfResponsibilty\02_ChainOfResponsibilty.csproj", "{F98FA8BA-49D1-4298-93BE-91F779527712}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Strategy", "1-Strategy", "{130B8EFC-ACF3-4DBA-8EBF-2E26A66DCB8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-ChainOfResponsibility", "2-ChainOfResponsibility", "{66E84A6D-077C-42A4-8EE4-4BD1A13545EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-TemplateMethod", "3-TemplateMethod", "{48F59D5A-3770-4DAF-BE6C-81DD79D3A11A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_TemplateMethod", "03_TemplateMethod\03_TemplateMethod.csproj", "{B871C1DC-8B0D-40C5-892D-166F03654D84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +25,22 @@ Global
 		{0879868F-366A-49C8-95BC-EEDB5B5C343D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0879868F-366A-49C8-95BC-EEDB5B5C343D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0879868F-366A-49C8-95BC-EEDB5B5C343D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F98FA8BA-49D1-4298-93BE-91F779527712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F98FA8BA-49D1-4298-93BE-91F779527712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F98FA8BA-49D1-4298-93BE-91F779527712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F98FA8BA-49D1-4298-93BE-91F779527712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B871C1DC-8B0D-40C5-892D-166F03654D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B871C1DC-8B0D-40C5-892D-166F03654D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B871C1DC-8B0D-40C5-892D-166F03654D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B871C1DC-8B0D-40C5-892D-166F03654D84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0879868F-366A-49C8-95BC-EEDB5B5C343D} = {130B8EFC-ACF3-4DBA-8EBF-2E26A66DCB8D}
+		{F98FA8BA-49D1-4298-93BE-91F779527712} = {66E84A6D-077C-42A4-8EE4-4BD1A13545EE}
+		{B871C1DC-8B0D-40C5-892D-166F03654D84} = {48F59D5A-3770-4DAF-BE6C-81DD79D3A11A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53C2C2A2-80E7-4451-AE62-2C2F6AA3E266}
