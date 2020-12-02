@@ -20,7 +20,7 @@ namespace _03_TemplateMethod.Entities
             return orcamento.Valor * 0.06M;
         }
         private bool TemItemMaiorQue100ReaisNo(Orcamento orcamento)
-        {
+    {
             return orcamento.Itens.Any(item => item.Valor > 100);
         }
     }

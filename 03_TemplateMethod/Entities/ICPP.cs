@@ -15,7 +15,7 @@ namespace _03_TemplateMethod.Entities
         }
 
         public override decimal MinimaTaxacao(Orcamento orcamento)
-        {
+    {
             return orcamento.Valor * 0.05M;
         }
     }
