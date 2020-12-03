@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Strategy", "DesignPatterns_Alura\01_Strategy.csproj", "{0879868F-366A-49C8-95BC-EEDB5B5C343D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Strategy", "01_Strategy\01_Strategy.csproj", "{0879868F-366A-49C8-95BC-EEDB5B5C343D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_ChainOfResponsibilty", "02_ChainOfResponsibilty\02_ChainOfResponsibilty.csproj", "{F98FA8BA-49D1-4298-93BE-91F779527712}"
 EndProject
