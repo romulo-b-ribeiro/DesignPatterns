@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _01_Strategy.Entities;
+using System;
 
 namespace DesignPatterns_Alura._01_Strategy
 {
